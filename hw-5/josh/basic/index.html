@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+    <div id="start">
+        <h1>
+            START
+        </h1>
+    </div>
+    <div id="quiz">
+        <h4 id="timer">10</h4>
+        <h2>QUIZ:</h2>
+        <form id="questionOne">
+            <input type="radio" name="q1" value="male"> Male
+            <input type="radio" name="q1" value="female"> Female
+            <input type="radio" name="q1" value="other"> Other
+        </form>
+        <form id="questionTwo">
+            <input type="radio" name="q2" value="male"> Male
+            <input type="radio" name="q2" value="female"> Female
+            <input type="radio" name="q2" value="other"> Other
+        </form>
+    </div>
+    <div id="results">
+        <h2>RESULTS:</h2>
+        Correct: <span id="correct"></span><br/>
+        Incorrect: <span id="incorrect"></span><br/>
+        Unanswered: <span id="unanswered"></span>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
