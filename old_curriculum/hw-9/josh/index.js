@@ -3,6 +3,7 @@ var inquirer = require("inquirer")
 
 var wordsList = ["shinji", "rei", "asuka", "toji"];
 var currentWord = new Word("pineapple")
+//just kidding
 
 function runGame(){
     inquirer.prompt({
